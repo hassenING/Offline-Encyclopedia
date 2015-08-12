@@ -1,0 +1,127 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+import os
+print """
+  ___   __  __ _ _          
+ / _ \ / _|/ _| (_)_ _  ___ 
+| (_) |  _|  _| | | ' \/ -_)
+ \___/|_| |_| |_|_|_||_\___|
+                            
+ _____ ___ ___ _  _     ___                 _                  _ _      
+|_   _| __/ __| || |___| __|_ _  __ _  _ __| |___ _ __  ___ __| (_)__ _ 
+  | | | _| (__| __ |___| _|| ' \/ _| || / _| / _ \ '_ \/ -_) _` | / _` |
+  |_| |___\___|_||_|   |___|_||_\__|\_, \__|_\___/ .__/\___\__,_|_\__,_|
+                                    |__/         |_| 
+
+"""
+
+print ("Hello Guys ") 
+print ("Choose one Of Those  ")
+print ( "A-Richard Matthew Stallman")
+print ( "B-Bill Gates")
+print ( "C-Steve Jobs")
+print ( "D-MS_DOS" )
+print ( "E-GNU" )
+print ( "F-UNIX")
+print ( "G-Android ")
+print ( "H-Debian ")
+print ( "I-ALTAIR_8800 The First Personal Computer")
+def w():
+    print ( "-------------------------")
+    print ( "A-Richard Matthew Stallman")
+    print ( "B-Bill Gates")
+    print ( "C-Steve Jobs")
+    print ( "D-MS_DOS" )
+    print ( "E-GNU" )
+    print ( "F-UNIX")
+    print ( "G-Android ")
+    print ( "H-Debian ")
+    print ( "I-ALTAIR_8800 The First Personal Computer")
+    print ( "------------------------------")
+
+
+def x(a):
+    if a.upper() == "A":
+        print ("Richard Matthew Stallman (born March 16, 1953), often known by his initials, rms, is a software freedom activist and computer programmer. He campaigns for software to be distributed in a manner such that its users receive the freedoms to use, study, distribute and modify that software. Software that ensures these freedoms (as rights that are granted, when obtaining the software) is termed free software. He is best known for launching the GNU Project, founding the Free Software Foundation, developing the GNU Compiler Collection and GNU Emacs, and writing the GNU General Public License.")
+        w()
+    elif a.upper()=="B" :
+        print ("William Henry Bill Gates III (born October 28, 1955) is an American business magnate, philanthropist, investor, computer programmer, and inventor. In 1975, Gates co-founded Microsoft, the world’s largest PC software company, with Paul Allen. During his career at Microsoft, Gates held the positions of chairman, CEO and chief software architect, and was the largest individual shareholder until May 2014. Gates has authored and co-authored several booksStarting in 1987, Gates was included in the Forbes \list of the world's wealthiest people and was the wealthiest overall from 1995 to 2014—excluding a few years after the Financial crisis of 2007–08. Between 2009 and 2014 his wealth more than doubled from $40 billion to more than $82 billion. Between 2013 and 2014 his wealth increased by $15 billion. Gates is currently the richest man in the world.")
+        w()
+    elif a.upper()=="C" :
+        print ("Steven Paul steve Jobs  (February 24, 1955_October 5, 2011) was an American pioneer of the personal computer revolution of the 1970s (along with engineer, inventor, and Apple Computer co-founder, Steve Wozniak). Shortly after his death, Jobs's official biographer, Walter Isaacson described him as the creative entrepreneur whose passion for perfection and ferocious drive revolutionized six industries: personal computers, animated movies, music, phones, tablet computing, and digital publishing Adopted at birth in San Francisco and raised in the San Francisco Bay Area during the 1960s, Jobs's countercultural lifestyle was a product of his time. As a senior at Homestead High School, in Cupertino, California, his two closest friends were the older engineering student (and Homestead High alumnus) Steve Wozniak and his countercultural girlfriend, the artistically inclined Homestead High junior Chrisann Brennan. Jobs briefly attended Reed College in 1972 before dropping out, deciding to travel through India in 1974, and study Buddhism.In addition, Jobs\'s proximity to Silicon Valley influenced his interest in the budding personal computer industry of the 1970s. After a brief period at Atari, Inc., he co-founded Apple in 1976 in his parents' Los Altos home on Crist Drive in order to sell Wozniak's Apple I personal computer. Jobs and Woz gained fame and wealth a year later for the Apple II (which was designed primarily by Wozniak, but Jobs oversaw the development of its unusual case and Rod Holt developed the unique power supply) one of the first highly successful mass-produced personal computers. The Apple II dominated the personal computer market until it was destabilized by the introduction of the IBM-PC (powered by Microsoft\'s MS-DOS) in 1981.")
+        w()
+    elif a.upper()=="D":
+        print (" MS-DOS  was an operating system for x86-based personal computers mostly developed by Microsoft. It was the most commonly used member of the DOS family of operating systems, and was the main operating system for IBM PC compatible personal computers during the 1980s to the mid-1990s, when it was gradually superseded by operating systems offering a graphical user interface (GUI), in various generations of the Microsoft Windows operating system.")
+        w()
+    elif a.upper()=="E":
+        print (" GNU  is a Unix-like computer operating system composed wholly of free software GNU is a recursive acronym for 'GNU's Not Unix!' , chosen because GNU's design is Unix-like, but differs from Unix by being free software and containing no Unix code and was the original focus of the Free Software Foundation (FSF) ")
+        w()
+    elif a.upper()=="F":
+        print ("Unix (all-caps UNIX for the trademark) is a family of multitasking, multiuser computer operating systems that derive from the originalAT&T Unix, developed in the 1970s at the Bell Labs research center by Ken Thompson, Dennis Ritchie, and others.Initially intended for use inside the Bell System, AT&T licensed Unix to outside parties from the late 1970s, leading to a variety of both academic and commercial variants of Unix from vendors such as the University of California, Berkeley (BSD), Microsoft (Xenix),IBM (AIX) and Sun Microsystems (Solaris). AT&T finally sold its rights in Unix to Novell in the early 1990s, which then sold its Unix business to the Santa Cruz Operation (SCO) in 1995, but the UNIX trademark passed to the industry standards consortium The Open Group, which allows the use of the mark for certified operating systems compliant with the Single UNIX Specification. Among these is Apple's OS X, which is the Unix version with the largest installed base as of 2014.")
+        w()
+    elif a.upper()=="G":
+        print ("Android is a mobile operating system (OS) based on the Linux kernel and currently developed by Google. With a user interface based on direct manipulation, Android is designed primarily for touchscreen mobile devices such as smartphones and tablet computers, with specialized user interfaces for televisions (Android TV) ")
+        w()
+    elif a.upper()=="H":
+        print ("Debian is a Unix-like computer operating system and a Linux distribution that is composed entirely of free and open-source software, most of which is under the GNU General Public License, and packaged by a group of individuals known as the Debian project")
+        w()
+    elif a.upper()=="I" :
+        print ("The MITS Altair 8800 is a microcomputer designed in 1974 based on the Intel 8080 CPU. Interest grew quickly after it was featured on the cover of the January 1975 issue (published in December 1974) of Popular Electronics, and was sold by mail order through advertisements there, in Radio-Electronics, and in other hobbyist magazines. The designers hoped to sell a few hundred build-it-yourself kits to hobbyists, and were surprised when they sold thousands in the first month.[1] The Altair also appealed to individuals and businesses that just wanted a computer and purchased the assembled version.[2] The Altair is widely recognized as the spark that ignited the microcomputer revolution.[3] The computer bus designed for the Altair was to become a de facto standard in the form of the S-100 bus, and the first programming language for the machine was Microsoft's founding product, Altair BASIC")
+        w()
+a=raw_input ("Choose One ....:  ")
+
+while (a.upper() != "Q") :
+    while (a.upper() not in "ABCDEFGHIQ"):
+        a=raw_input (" Choose a Valid One.......:  ")
+        print ("---------------------------")
+    x(a)
+    print("-----------------------------")
+    a=raw_input ("choose One Or Press Q to Close The Program ....:  ")
+    print("-----------------------------")
+    x(a)
+    
+if a.upper()=="Q":
+    os.system('cls')
+    print """
+                     ________________________
+                    /  Thanks For using      \
+                   |                          |
+                    |    Our Program, Bye     |
+                    \___  ___________________/ 
+                        |/
+
+
+            ,,,,,       
+          .|_   _|.
+          (| O-O |)        
+           |  I  |
+           | \_/ |
+            \___/         !!!
+        _____/&\_____    \| |
+       /~~~~~~~~~~~~~\    / |
+      |~|~~~~~M~~~~~|~|  /-/
+      |~|~~~~~~~~~~~|~| |~/
+      |~|\~~~~E~~~~/|~| |~|
+      |~||~~~~~~~~~||~| |~|
+      |~||~~~~P~~~~||~~\|~|
+      |~||~~~~~~~~~| \~~~~/
+      |~||~~~~H~~~~|  \~~/
+      |~||~~~~~~~~~|
+     /-/ |=========|
+    | |\ |....H....|
+    !!!  |....H....|
+          \...I.../
+           |..I..|
+           |..I..|
+           |..I..|
+           /..I..\
+          |...I...|
+          |...I...|
+          |...I...|
+          |...I...|
+          |...I...|
+           \..I../
+         __/==I==\__
+        /_____I_____\
+     """
+raw_input()
